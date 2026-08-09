@@ -1,4 +1,4 @@
-// File: /home/asce/Desktop/projects/ordering pilot/hanout-direct-nextjs-fmcg-pilot-v2/app/layout.jsx
+// File: /home/asce/Desktop/projects/ordering pilot/hanout v3/app/layout.jsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

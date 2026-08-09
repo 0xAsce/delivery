@@ -1,3 +1,27 @@
 {
-  "/page": "app/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/api/orders/route": "app/api/orders/route.js",
+  "/api/products/route": "app/api/products/route.js",
+  "/api/payments/route": "app/api/payments/route.js",
+  "/api/seller/2fa/disable/route": "app/api/seller/2fa/disable/route.js",
+  "/api/seller/2fa/setup/route": "app/api/seller/2fa/setup/route.js",
+  "/api/seller/2fa/verify/route": "app/api/seller/2fa/verify/route.js",
+  "/api/seller/login/route": "app/api/seller/login/route.js",
+  "/api/seller/logout/route": "app/api/seller/logout/route.js",
+  "/api/seller/me/route": "app/api/seller/me/route.js",
+  "/api/seller/password-reset/confirm/route": "app/api/seller/password-reset/confirm/route.js",
+  "/api/seller/password-reset/request/route": "app/api/seller/password-reset/request/route.js",
+  "/api/seller/phone/verify/route": "app/api/seller/phone/verify/route.js",
+  "/api/seller/phone/request/route": "app/api/seller/phone/request/route.js",
+  "/api/seller/profile/route": "app/api/seller/profile/route.js",
+  "/api/seller/register/route": "app/api/seller/register/route.js",
+  "/api/seller/verify-email/resend/route": "app/api/seller/verify-email/resend/route.js",
+  "/api/seller/verify-email/route": "app/api/seller/verify-email/route.js",
+  "/api/shops/route": "app/api/shops/route.js",
+  "/page": "app/page.js",
+  "/seller/register/page": "app/seller/register/page.js",
+  "/seller/dashboard/page": "app/seller/dashboard/page.js",
+  "/seller/login/page": "app/seller/login/page.js",
+  "/seller/reset-password/page": "app/seller/reset-password/page.js"
 }
