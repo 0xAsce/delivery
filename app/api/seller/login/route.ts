@@ -11,9 +11,6 @@ export async function POST(req: Request) {
     if (!user || user.role !== "SELLER" || !user.password || !(await verifyPassword(String(password || ""), user.password))) {
       return NextResponse.json({ error: "Invalid email or password." }, { status: 401 });
     }
-    if (!user.emailVerified) {
-      return NextResponse.json({ error: "Please verify your email before logging in.", code: "EMAIL_NOT_VERIFIED" }, { status: 403 });
-    }
     if (user.twoFactorEnabled && user.twoFactorSecret) {
       const challenge = randomBytes(24).toString("hex");
       await db.verificationToken.deleteMany({ where: { identifier: `2fa:${user.id}` } });
